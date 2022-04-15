@@ -659,8 +659,8 @@ ____
 
 ***Članovi:***
 
-**Filippo Bubić**, JMBAG: 0069088337
+**Filippo Bubić**, 
 
-**Leo Matošević**, JMBAG: 0303103195
+**Leo Matošević**,
 
-**Stevan Čorak**, JMBAG: 0303100765
+**Stevan Čorak**, 
