@@ -8,13 +8,6 @@ polje = []
 varijable = []
 rjesenje=[]
 
-#funkcije koje fale iz novog koda
-#negacija
-#implikacija
-#pojam
-
-
-
 
 PropVar = int(input("Unesite željeni broj propozicionalnih varijabli: ")) # upis broja varijabli
 UpisPropVar(varijable, PropVar) # upis varijabli
@@ -33,12 +26,8 @@ for x in range(len(rjesenje)):
 
 print("\nRješenje:", rjesenje, "\n\n")
 
-#print("???",fixaj(rjesenje)) # -2 -1
-#print("\nRjesenje:",type(rjesenje[0]))
-#input("press enter to continue")
 
 DNF(polje, varijable, rjesenje, PropVar) # ispisuje DNF
 KNF(polje, varijable, rjesenje, PropVar) # ispisuje KNF 
 inverzKNF(polje, varijable, rjesenje, PropVar) # ispisuje inverz KNF 
 pojam(rjesenje) # ispisuje pojam
-#(A>>B)==((~A)|B)
