@@ -158,7 +158,6 @@ def KrivoZagrade(string):
             Lzagrada += 1
         if (x == ")"):
             Dzagrada += 1
-    #print(Lzagrada, "  ", Dzagrada, " =>", ((Lzagrada + Dzagrada) % 2))
 
     if (Lzagrada + Dzagrada) % 2 != 0:
         print("Krivo unesena formula: nedostaju zagrade!")
@@ -194,7 +193,6 @@ def Racunanje(problem, varijable, polje,PropVar,rjesenje):
     
     for stanje in range(len(newarr[0])):  # Broj puta stanja varijabla
         for varijabla in range(len(varijable)):  # Broj puta varijabla
-            #print(str(bool(newarr[varijabla][stanje]))[0].lower() + str(bool(newarr[varijabla][stanje]))[1:],">>><<<")
             if bool(newarr[varijabla][stanje]) == True:
                x = true
             else:
@@ -245,7 +243,7 @@ def ispisTablice(Vel,polje):
 
 
 def Provjera(problem, varijable, BrVar):
-    while ImaZnakova(problem) == False or KrivoZagrade(problem) == False: # VisakVarijabli(problem,varijable,BrVar) == False
+    while ImaZnakova(problem) == False or KrivoZagrade(problem) == False or VisakVarijabli(problem,varijable,BrVar) == False:
         problem = input("\nUnesite izraz za računanje. \n & (Konjunkcija), | (Disjunkcija), ~ (Negacija, za negiranje postavite tvrdnju u zagrade), >> (Implikacija), == (Ekvivalencija)\n\n")
 
 
@@ -264,7 +262,6 @@ def UpisPropVar(varijable, brVar):
     print("Propozicionalne varijable:", varijable, "\n\n")
 
     return varijable
-#take string replace whereever there is "!" replace all letters in () negative
 
 
 def pojam(rjesenje):
