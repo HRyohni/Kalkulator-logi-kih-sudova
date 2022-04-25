@@ -6,7 +6,7 @@
 
 ## *Uvodno o logici u životu*
 
-Logika se primjenjuje u našem svakodnevnom životu, naime logika nam služi kao nekakav alat ispravnog razmišljanja. Logika nam je ključan dio bili kakvog razmišljanja, preko logike dolazimo do činjenica i tako dolazimo do zaključaka. Bez logike svaka tvrdnja može biti istinita i lažna, došli bi do trenutka oko čega se nitko ne bi mogao složiti. Naravno ne možemo koristiti logiku u svakom odabiru u našem životu pogotovo ako dolazi do pitanja ljudskih osjećaja i mišljenja. 
+Logika se primjenjuje u našem svakodnevnom životu, naime logika nam služi kao nekakav alat ispravnog razmišljanja. Logika nam je ključan dio bilo kakvog razmišljanja, preko logike dolazimo do činjenica i tako dolazimo do zaključaka. Bez logike svaka tvrdnja može biti istinita i lažna, došli bi do trenutka oko čega se nitko ne bi mogao složiti. Naravno ne možemo koristiti logiku u svakom odabiru u našem životu pogotovo ako dolazi do pitanja ljudskih osjećaja i mišljenja. 
 
 ------
 
