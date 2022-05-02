@@ -243,7 +243,7 @@ def ispisTablice(Vel,polje):
 
 
 def Provjera(problem, varijable, BrVar):
-    while ImaZnakova(problem) == False or KrivoZagrade(problem) == False or VisakVarijabli(problem,varijable,BrVar) == False:
+    while ImaZnakova(problem) == False or KrivoZagrade(problem) == False:# VisakVarijabli(problem,varijable,BrVar) == False:
         problem = input("\nUnesite izraz za računanje. \n & (Konjunkcija), | (Disjunkcija), ~ (Negacija, za negiranje postavite tvrdnju u zagrade), >> (Implikacija), == (Ekvivalencija)\n\n")
 
 
